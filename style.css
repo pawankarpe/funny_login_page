@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nerko One', cursive;
+}
+
+body{
+    background-color: rgb(170, 212, 137);
+}
+
+.container{
+    width: 35 rem; 
+    background-color: rgb(138, 242, 11);
+    padding: 1.4rem 3.75rem;
+    position: absolute;
+    transform: translate(-50% -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.7em;
+    box-shadow: 0 2em 8em rgba(71, 50, 4, 0.5);
+}
+
+h2{
+    font-family: 'Nerko One', cursive;
+    text-align: center;
+    font-size: 32px;
+    color: rgb(6, 74, 127);
+
+}
+
+#submit{
+    border: none;
+    outline: none;
+    display: block;
+}
+input{
+    width: 100%;
+    background-color: rgb(209, 209, 235);
+    margin-bottom: 2em;
+    font-size: 20px;
+    padding: 1em 0 0.5em 0.5em;
+}
+
+#submit{
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    font-size: 1.1em;
+    width: 7em;
+    background-color: rgb(152, 161, 123);
+    color: white;
+    padding: 0.8em 0;
+    margin-top: 2em;
+    border-radius: 0.3em;
+
+}
+
+#message-ref{
+    font-family: 'Rubik Distressed', cursive;
+    font-size: 0.9em;
+    margin-top: 1.5em;
+    color: #34bd34;
+    visibility: hidden;
+
+}
